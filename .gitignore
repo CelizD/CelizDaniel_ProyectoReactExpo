@@ -39,3 +39,33 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+# Dependencias
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Variables de entorno y archivos sensibles
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Carpetas nativas generadas por Expo
+/android
+/ios
